@@ -3,3 +3,4 @@
 .sst
 .venv
 *.zip
+src/sst.pyi

@@ -3,7 +3,4 @@
 from typing import Any
 
 class Resource:
-    class Bucket:
-        name: str
-        type: str
 
