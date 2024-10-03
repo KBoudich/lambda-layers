@@ -1,0 +1,10 @@
+```shell
+
+docker build -t lambda-opencv-numpy-layer .
+
+docker run --name lambda-layer-container --entrypoint /bin/bash lambda-opencv-numpy-layer
+
+docker cp lambda-layer-container:/packages/cv2-python312.zip .
+
+
+```
