@@ -2,7 +2,7 @@
   "name": "Python 3.11 w/ Node.js 18",
   "image": "python:3.11-slim-bullseye",
   "features": {
-    "ghcr.io/devcontainers/features/node:1": {
+    "ghcr.io/devcontainers/features/node:2": {
       "version": "18"
     }
   },
